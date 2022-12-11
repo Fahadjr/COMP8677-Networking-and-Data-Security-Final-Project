@@ -2,8 +2,8 @@
 ## Work Description
 
 - Shellshock Attack with Reverse Shell <br/>
-- Local Client and Server using Socket Programming to launch attack <br/>
-- Mini Implementation of Trojan Horse to encrpt user all files and decrypting it with key<br/>
+- Local Client and Server using Socket Programming to demonstrate Trojan Horse Attack <br/>
+- Mini Implementation of Trojan Horse to encrpt user all files and to decrypt it with key<br/>
 
 ## Prerequisite
 
