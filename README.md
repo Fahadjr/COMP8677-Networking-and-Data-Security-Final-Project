@@ -43,9 +43,9 @@ Close lab close container  by ```docker-compose down```
 
 ## Reference
 
-- For the implementation of shellshock, seedlab setup is used (https://seedsecuritylabs.org/Labs_20.04/Web/Shellshock/)<br/>.
-- I have made changes in the docker-compose of the project and also creted several C files to get key information about users like PID GPID or to display users files and folders<br/>.
-- The implmentation of trojan horse to encrpy and decrpt files in local Client and server using socket programming is created by me.
+- For the implementation of shellshock, seedlab setup is used (https://seedsecuritylabs.org/Labs_20.04/Web/Shellshock/).<br/>
+- I have made changes in the docker-compose of the project and also creted several C files to get key information about users like PID GPID or to display users files and folders.<br/>
+- The implmentation of trojan horse to encrpy and decrpt files in local Client and server using socket programming is created by me<br/>
 
 ## Author
 
