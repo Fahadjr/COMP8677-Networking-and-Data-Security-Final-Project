@@ -1,0 +1,51 @@
+version: "3"
+
+services:
+    attacker:
+        build: ./image_ubuntu_mitnick
+        image: seed-image-ubuntu-mitnick
+        container_name: seed-attacker
+        tty: true
+        cap_add:
+                - ALL
+        privileged: true
+        volumes:
+                - ./volumes:/volumes
+        networks:
+            net-10.0.2.0:
+                ipv4_address: 10.0.2.7
+
+    x-terminal:
+        image: seed-image-ubuntu-mitnick
+        container_name: x-terminal-10.0.2.8
+        tty: true
+        cap_add:
+                - ALL
+        volumes:
+                - ./volumes:/volumes
+        networks:
+            net-10.0.2.0:
+                ipv4_address: 10.0.2.8
+
+        command: bash -c "
+                      /etc/init.d/openbsd-inetd start  &&
+                      tail -f /dev/null
+                 "
+                  
+    trusted-server:
+        image: seed-image-ubuntu-mitnick
+        container_name: trusted-server-10.0.2.10
+        tty: true
+        cap_add:
+                - ALL
+        networks:
+            net-10.0.2.0:
+                ipv4_address: 10.0.2.10
+
+networks:
+    net-10.0.2.0:
+        name: net-10.0.2.0
+        ipam:
+            config:
+                - subnet: 10.0.2.0/24
+
