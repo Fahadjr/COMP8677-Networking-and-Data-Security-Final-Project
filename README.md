@@ -2,8 +2,8 @@
 
 ## Project Description
 Final Project for COMP 8677 
-Network Security Attacks and Prevention using concepts learned in Course work Networking and Data Security
-Implemented using python programming in [SEED Labs](https://seedsecuritylabs.org/)
+# Network Security Attacks and Prevention using concepts learned in Course work Networking and Data Security
+# Implemented using python programming in [SEED Labs](https://seedsecuritylabs.org/)
 
 ## Team Members
 
