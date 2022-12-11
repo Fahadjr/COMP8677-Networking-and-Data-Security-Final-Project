@@ -1,0 +1,32 @@
+# Author: Fahad Patel: 110085698
+# Refrence : SEED Labs 
+version: "3"
+
+
+services:
+    victim:
+    # To create a  lab setup I have created a lab container setup called shellshock_bash so we can launch Attack on bash
+        build: ./image_shellshock
+        image: seed-image-www-shellshock
+        # Victim IP address, I have used this IP which is provided under SEED labs
+        container_name: victim-10.9.0.80
+        cap_add:
+                - ALL
+        tty: true
+        # volumes:
+                #- ./defender:/var/www/defender
+        networks:
+            net-10.9.0.0:
+                ipv4_address: 10.9.0.80
+        #networks:
+            #net-10.9.0.0:
+                #ipv4_address: 10.9.0.105
+
+networks:
+    net-10.9.0.0:
+        name: net-10.9.0.0
+        ipam:
+            config:
+                - subnet: 10.9.0.0/24
+
+
