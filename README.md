@@ -5,7 +5,7 @@ Final Project for COMP 8677 (Several Attacks using SEED lab)
 
 ## Team Members
 
-1. Fahad Patel 110085698 | [Link to code branch](https://github.com/Fahadjr/COMP8677-Networking-and-Data-Security-Final-Project/tree/ShellShock_and_Trojan_Horse_Attack) ```ShellShock Attack and Mini Trojan Horse Attack using Socket Programming in Python```
+1. Fahad Patel 110085698 | [Link to code branch](https://github.com/Fahadjr/COMP8677-Networking-and-Data-Security-Final-Project/tree/ShellShock_and_Trojan_Horse_Attack) ```ShellShock Attack and Mini Trojan Horse using Socket Programming in Python```
 2. Dhruv Bhatt 
 3. Devanshi Shah
 4. Darshil Shah
