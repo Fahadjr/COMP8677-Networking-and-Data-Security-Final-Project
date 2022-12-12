@@ -1,7 +1,7 @@
 # COMP8677-Networking-and-Data-Security-Final-Project
 
 ## Project Description
-<br/>
+
 Security Attacks and Detection Techniques using concepts learned in Course work Networking and Data Security by ```Professor Mahdi D. Firoozjaei``` @ University of Windsor, Canada <br/><br/>
 Project has Implemented using python programming in [SEED Labs](https://seedsecuritylabs.org/) </br>
 
