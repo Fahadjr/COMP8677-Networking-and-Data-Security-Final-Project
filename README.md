@@ -2,8 +2,8 @@
 
 ## Project Description
 Final Project for COMP 8677 <br/>
-Network Security Attacks and Prevention using concepts learned in Course work Networking and Data Security <br/>
-Implemented using python programming in [SEED Labs](https://seedsecuritylabs.org/) </br>
+Network and Web Security Attacks and Detection using concepts learned in Course work Networking and Data Security by Professor Mahdi D. Firoozjaei @ University of Windsor, Canada <br/>
+Project has Implemented using python programming in [SEED Labs](https://seedsecuritylabs.org/) </br>
 
 ## Team Members
 
